@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>This is title or not</title>
+</head>
+<body>
+<p>Вас зовут Игорь?</p>
+
+<button id="igor">Да</button>
+<button id="no">Нет</button>
+<p id="demo"></p>
+<script>
+document.getElementById("igor").addEventListener("click", myFunction);
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Fuck you, Igor!";
+}
+
+document.getElementById("no").addEventListener("click", myFunction2);
+function myFunction2() {
+    document.getElementById("demo").innerHTML = "Хорошего вам дня!";
+}
+
+</script>
+
+</body>
+</html>
